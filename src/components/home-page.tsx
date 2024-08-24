@@ -32,7 +32,7 @@ export function HomePage() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <header className="bg-primary text-primary-foreground py-4 px-4 sm:py-6 sm:px-6">
+      <header className="bg-primary text-primary-foreground py-4 px-4 sm:py-6 sm:px-6 w-full max-w-full">
         <div className="container mx-auto max-w-5xl">
           <div className="space-y-2">
             <h1 className="text-2xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-left">
@@ -140,7 +140,7 @@ export function HomePage() {
         </section>
       </main>
 
-      <footer className="bg-muted text-muted-foreground py-6 px-4 md:px-6 flex items-center justify-center">
+      <footer className="bg-muted text-muted-foreground py-6 px-4 sm:px-6 w-full max-w-full">
         <div className="container mx-auto max-w-5xl flex flex-col items-center gap-4 sm:flex-row sm:justify-between text-center sm:text-left">
           <p className="text-base sm:text-lg">&copy; 2024 Salary Calculator. All rights reserved.</p>
           <nav className="flex gap-4">
