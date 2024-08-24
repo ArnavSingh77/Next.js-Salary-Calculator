@@ -1,10 +1,10 @@
-"use client"
+"use client";
 
-import { FormEvent, useState } from "react"
-import { Input } from "@/components/ui/input"
-import { Button } from "@/components/ui/button"
-import Link from "next/link"
-import "@/app/globals.css"
+import { FormEvent, useState } from "react";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+import "@/app/globals.css";
 
 export function HomePage() {
   const [currentSalary, setCurrentSalary] = useState<number | "">("");
@@ -39,16 +39,16 @@ export function HomePage() {
               New Salary Calculator
             </h1>
             <p className="text-base sm:text-lg md:text-xl max-w-[600px] text-left">
-            Calculate your updated salary after a percentage hike or determine the percentage hike between your previous and new salaries.
+              Calculate your updated salary after a percentage hike or determine the percentage hike between your previous and new salaries.
             </p>
           </div>
         </div>
       </header>
 
-      <main className="flex-1 bg-background flex items-center justify-center">
+      <main className="flex-1 bg-background flex items-center justify-center px-4">
         <section className="container mx-auto max-w-5xl py-12 md:py-16 text-center">
-          <div className="grid gap-8 sm:grid-cols-2 md:divide-x md:divide-line-color md:divide-thick">
-            <div className="md:pr-8">
+          <div className="grid gap-8 sm:grid-cols-2">
+            <div className="sm:pr-8">
               <h2 className="text-xl sm:text-2xl font-bold mb-4">Salary Increase Calculator</h2>
               <form onSubmit={handleSalaryIncreaseSubmit} className="space-y-4">
                 <div>
@@ -92,7 +92,7 @@ export function HomePage() {
                 )}
               </form>
             </div>
-            <div className="md:pl-8">
+            <div className="sm:pl-8">
               <h2 className="text-xl sm:text-2xl font-bold mb-4">Hike Percentage Calculator</h2>
               <form onSubmit={handleSalaryComparisonSubmit} className="space-y-4">
                 <div>
