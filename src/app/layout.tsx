@@ -6,6 +6,7 @@ import { Space_Mono } from 'next/font/google'
 import { cn } from '@/lib/utils'
 import './globals.css'
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata: Metadata = {
   title: 'New Salary Calculator',
@@ -40,6 +41,7 @@ export default function Layout({ children }: { children: ReactNode }) {
       >
         {children}
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )
