@@ -39,8 +39,7 @@ export function HomePage() {
               New Salary Calculator
             </h1>
             <p className="text-base sm:text-lg md:text-xl max-w-[600px] text-left">
-              Easily calculate your updated salary after a percentage increase or determine the percentage hike between
-              two salary amounts.
+            Calculate your updated salary after a percentage hike or determine the percentage hike between your previous and new salaries.
             </p>
           </div>
         </div>
@@ -94,18 +93,18 @@ export function HomePage() {
               </form>
             </div>
             <div className="md:pl-8">
-              <h2 className="text-xl sm:text-2xl font-bold mb-4">Salary Comparison</h2>
+              <h2 className="text-xl sm:text-2xl font-bold mb-4">Hike Percentage Calculator</h2>
               <form onSubmit={handleSalaryComparisonSubmit} className="space-y-4">
                 <div>
                   <label htmlFor="salary-1" className="block text-lg sm:text-xl font-medium mb-1">
-                    Salary 1
+                    Current Salary
                   </label>
                   <Input
                     id="salary-1"
                     type="number"
                     min="0"
                     step="100"
-                    placeholder="Enter the first salary amount"
+                    placeholder="Enter your current salary amount"
                     className="w-full text-lg sm:text-xl"
                     value={salary1}
                     onChange={(e) => setSalary1(parseFloat(e.target.value))}
@@ -113,14 +112,14 @@ export function HomePage() {
                 </div>
                 <div>
                   <label htmlFor="salary-2" className="block text-lg sm:text-xl font-medium mb-1">
-                    Salary 2
+                    Updated Salary
                   </label>
                   <Input
                     id="salary-2"
                     type="number"
                     min="0"
                     step="100"
-                    placeholder="Enter the second salary amount"
+                    placeholder="Enter your new salary amount"
                     className="w-full text-lg sm:text-xl"
                     value={salary2}
                     onChange={(e) => setSalary2(parseFloat(e.target.value))}
