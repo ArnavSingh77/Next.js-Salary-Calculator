@@ -4,6 +4,7 @@ import { DM_Sans } from 'next/font/google'
 import { Space_Mono } from 'next/font/google'
 import { cn } from '@/lib/utils'
 import './globals.css'
+import { Analytics } from "@vercel/analytics/react"
 
 const fontHeading = DM_Sans({
   subsets: ['latin'],
@@ -31,6 +32,7 @@ export default function Layout({ children }: { children: ReactNode }) {
         )}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   )
