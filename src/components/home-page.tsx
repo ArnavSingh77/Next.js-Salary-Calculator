@@ -31,12 +31,12 @@ export function HomePage() {
   };
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen overflow-x-hidden">
       <header className="bg-primary text-primary-foreground py-4 px-4 sm:py-6 sm:px-6 w-full max-w-full">
         <div className="container mx-auto max-w-5xl">
           <div className="space-y-2">
             <h1 className="text-2xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-left">
-              Salary Calculator
+              New Salary Calculator
             </h1>
             <p className="text-base sm:text-lg md:text-xl max-w-[600px] text-left">
               Easily calculate your updated salary after a percentage increase or determine the percentage hike between
@@ -142,7 +142,7 @@ export function HomePage() {
 
       <footer className="bg-muted text-muted-foreground py-6 px-4 sm:px-6 w-full max-w-full">
         <div className="container mx-auto max-w-5xl flex flex-col items-center gap-4 sm:flex-row sm:justify-between text-center sm:text-left">
-          <p className="text-base sm:text-lg">&copy; 2024 Salary Calculator. All rights reserved.</p>
+          <p className="text-base sm:text-lg">&copy; 2024 New Salary Calculator. All rights reserved.</p>
           <nav className="flex gap-4">
             <Link href="#" className="text-base sm:text-lg hover:underline" prefetch={false}>
               Privacy
@@ -154,6 +154,9 @@ export function HomePage() {
               Contact
             </Link>
           </nav>
+        </div>
+        <div className="container mx-auto max-w-5xl text-center mt-4">
+          <p className="text-base sm:text-lg">Designed by Arnav Singh</p>
         </div>
       </footer>
     </div>
