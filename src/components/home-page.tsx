@@ -74,7 +74,6 @@ export function HomePage() {
                     id="percentage-increase"
                     type="number"
                     min="0"
-                    max="100"
                     step="0.01"
                     placeholder="Enter the percentage increase"
                     className="w-full text-lg sm:text-xl"
