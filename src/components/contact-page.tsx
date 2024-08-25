@@ -30,7 +30,7 @@ export function ContactPage() {
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">Get in touch</h2>
           <p className="mt-4 text-lg leading-6 text-muted-foreground">
-            Have a question or want to work together? Fill out the form below and we'll get back to you as soon as
+            Have a question or want to work together? Fill out the form below and we&apos;ll get back to you as soon as
             possible.
           </p>
         </div>
