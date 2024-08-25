@@ -148,7 +148,7 @@ export function HomePage() {
             <Link href="#" className="text-base sm:text-lg hover:underline" prefetch={false}>
               Terms
             </Link>
-            <Link href="/contact" className="text-base sm:text-lg hover:underline" prefetch={true}>
+            <Link href="#" className="text-base sm:text-lg hover:underline" prefetch={true}>
               Contact
             </Link>
           </nav>
