@@ -154,7 +154,10 @@ export function HomePage() {
           </nav>
         </div>
         <div className="container mx-auto max-w-5xl text-center mt-4">
-          <p className="text-base sm:text-lg">Designed by Arnav Singh</p>
+          <p className="text-base sm:text-lg"><span>Designed by </span>
+            <Link href="#" className="hover:underline" prefetch={false}>
+              Arnav Singh
+            </Link></p>
         </div>
       </footer>
     </div>
