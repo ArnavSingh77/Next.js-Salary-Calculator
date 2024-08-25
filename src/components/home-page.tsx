@@ -155,7 +155,7 @@ export function HomePage() {
         </div>
         <div className="container mx-auto max-w-5xl text-center mt-4">
           <p className="text-base sm:text-lg"><span>Designed by </span>
-            <Link href="#" className="hover:underline" prefetch={false}>
+            <Link href="_https://arnavsingh.framer.ai" className="hover:underline" prefetch={false}>
               Arnav Singh
             </Link></p>
         </div>
