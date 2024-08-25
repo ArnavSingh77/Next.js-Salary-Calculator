@@ -17,10 +17,10 @@ To read more about using these font, please visit the Next.js documentation:
 - App Directory: https://nextjs.org/docs/app/building-your-application/optimizing/fonts
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
 **/
-import { Label } from "@/app/ui/label"
-import { Input } from "@/app/ui/input"
-import { Textarea } from "@/app/ui/textarea"
-import { Button } from "@/app/ui/button"
+import { Label } from "@/app/components/ui/label"
+import { Input } from "@/app/components/ui/input"
+import { Textarea } from "@/app/components/ui/textarea"
+import { Button } from "@/app/components/ui/button"
 import Link from "next/link"
 
 export function ContactPage() {
