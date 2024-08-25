@@ -1,8 +1,8 @@
 "use client";
 
 import { FormEvent, useState } from "react";
-import { Input } from "@/pages/ui/input";
-import { Button } from "@/pages/ui/button";
+import { Input } from "@/app/ui/input";
+import { Button } from "@/app/ui/button";
 import Link from "next/link";
 import "@/app/globals.css";
 
@@ -157,7 +157,8 @@ export function HomePage() {
           <p className="text-base sm:text-lg"><span>Designed by </span>
             <Link href="https://arnavsingh.framer.ai" className="hover:underline" prefetch={false}>
               Arnav Singh
-            </Link></p>
+            </Link>
+            </p>
         </div>
       </footer>
     </div>
