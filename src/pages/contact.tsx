@@ -17,10 +17,10 @@ To read more about using these font, please visit the Next.js documentation:
 - App Directory: https://nextjs.org/docs/app/building-your-application/optimizing/fonts
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
 **/
-import { Label } from "@/components/ui/label"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { Button } from "@/components/ui/button"
+import { Label } from "@/pages/ui/label"
+import { Input } from "@/pages/ui/input"
+import { Textarea } from "@/pages/ui/textarea"
+import { Button } from "@/pages/ui/button"
 import Link from "next/link"
 
 export function ContactPage() {
@@ -78,7 +78,7 @@ export function ContactPage() {
         <div className="container mx-auto max-w-5xl text-center mt-4">
           <p className="text-base sm:text-lg">
             <span>Designed by </span>
-            <Link href="#" className="hover:underline" prefetch={false}>
+            <Link href="_https://arnavsingh.framer.ai" className="hover:underline" prefetch={false}>
               Arnav Singh
             </Link>
           </p>
