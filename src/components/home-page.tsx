@@ -59,7 +59,7 @@ export function HomePage() {
                     id="current-salary"
                     type="number"
                     min="0"
-                    step="100"
+                    step="0.01"
                     placeholder="Enter your current salary"
                     className="w-full text-lg sm:text-xl"
                     value={currentSalary}
@@ -75,7 +75,7 @@ export function HomePage() {
                     type="number"
                     min="0"
                     max="100"
-                    step="0.1"
+                    step="0.01"
                     placeholder="Enter the percentage increase"
                     className="w-full text-lg sm:text-xl"
                     value={percentageIncrease}
@@ -103,7 +103,7 @@ export function HomePage() {
                     id="salary-1"
                     type="number"
                     min="0"
-                    step="100"
+                    step="0"
                     placeholder="Enter your current salary amount"
                     className="w-full text-lg sm:text-xl"
                     value={salary1}
@@ -118,7 +118,7 @@ export function HomePage() {
                     id="salary-2"
                     type="number"
                     min="0"
-                    step="100"
+                    step="0"
                     placeholder="Enter your new salary amount"
                     className="w-full text-lg sm:text-xl"
                     value={salary2}
