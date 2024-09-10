@@ -7,7 +7,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import React, { ReactNode } from 'react';
 
-// SEO-optimized metadata
+// SEO-optimized metadata (without og-image and Twitter)
 export const metadata: Metadata = {
   title: 'New Salary Calculator - Quick & Accurate Salary Calculations',
   description: 'Quickly compute your updated salary after a percentage increase or the difference between old and new salaries with the New Salary Calculator.',
@@ -17,23 +17,8 @@ export const metadata: Metadata = {
     description: 'Quickly compute your salary adjustments with ease.',
     url: 'https://sal-cal.vercel.app/',
     siteName: 'New Salary Calculator',
-    images: [
-      {
-        url: 'https://sal-cal.vercel.app/og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'New Salary Calculator',
-      },
-    ],
     locale: 'en_US',
     type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    site: '@yourTwitterHandle',
-    title: 'New Salary Calculator',
-    description: 'Quickly compute your salary adjustments.',
-    images: ['https://sal-cal.vercel.app/og-image.jpg'],
   },
   robots: {
     index: true,
